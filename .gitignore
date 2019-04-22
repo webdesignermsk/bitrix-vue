@@ -1,0 +1,45 @@
+# Bitrix
+/bitrix
+/upload
+/webstat
+/bx_1c_import.php
+/*.restore
+
+# Front-end
+/local/static/bower_components
+/local/static/node_modules
+/local/static/build
+/local/static/bundle
+/local/static/assets/sass/global/include/_sprite.sass
+*.css
+/node_modules
+
+# SEO
+/sitemap.xml
+/sitemap_*
+/robots.txt
+/.htaccess
+/google*.html
+
+# composer
+#/local/composer.lock
+/local/vendor/
+
+# other
+/.idea
+/.gitkeep
+/local/api/PHPExcel/
+
+# trash files
+/**/*.txt
+/**/*.tmp
+/**/*.db
+/**/npm-debug.log
+*.log
+*.log.old
+/rock-log.php
+/test.php
+
+#docker
+/.env
+/.docker
